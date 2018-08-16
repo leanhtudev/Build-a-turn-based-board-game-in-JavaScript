@@ -1,0 +1,55 @@
+.container-fluid{
+	background-color: grey;
+}
+.cell{
+	width: 50px;
+	max-width: 50px;
+	min-width: 50px;
+	height: 50px;
+	float: left;
+	background-color: #f2f2f2;
+	margin:2px;
+}
+#main{
+	width: 60%;
+	float: left;
+	max-width:	540px;
+	min-width: 540px;
+}
+#info{
+	position: relative;
+	font-family: Comic Sans MS;
+	width: 40%;
+	float: right;
+	background-color: white;
+	height: 540px;
+	margin:  auto;
+}
+#title{
+	width: 20%;
+	float: left;
+	height: 200px;	
+}
+#p1{
+	width: 40%;
+	float: left;
+	height: 200px;	
+}
+#p2{
+	width: 40%;
+	height: 200px;	
+	float: left;
+}
+.center{
+	text-align: center;
+}
+#fightInfo{
+	position: absolute;
+	white-space: nowrap; 
+    overflow: auto;
+    text-overflow: ellipsis;
+    max-height: 160px;
+    width: 100%;
+}
+
+

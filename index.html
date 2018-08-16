@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="main.js" ></script>
+	
+</head>
+<body>
+	
+	<div class="container-fluid">		
+			<div id="main"></div>
+			<div id="info">
+				<h1>WELCOME TO MY GAME</h1>
+				<div id="title">
+					<h4>Player</h4>
+					<p>Turn</p>
+					<p>Health:</p>
+					<p>Force:</p>
+					<p>Weapon:</p>
+				</div>
+				<div id="p1" class="center">
+					<h4>Mario</h4>
+					<p id="marioTurn"></p>
+					<p><span id="marioHealth"></span></p>
+					<p><span id="marioForce"></span></p>
+					<p><span id="marioWeapon"></span></p>
+				</div>
+				<div id="p2" class="center">
+					<h4>Angry Bird</h4>
+					<p id="birdTurn"></p>
+					<p><span id="birdHealth"></span></p>
+					<p><span id="birdForce"></span></p>
+					<p><span id="birdWeapon"></span></p>
+				</div>
+				<div >
+					<p id="weaponStatus"></p>
+					<p id="fightStatus"></p>
+					<p id="pressInfo"></p>
+					<input type="number"  id="choose" hidden="hidden">
+					<button   id="button" onclick="check()" hidden="hidden">Ok</button>
+						
+					<p id="fightInfo" ></p>
+				</div>
+			</div>
+	</div>
+
+</body>
+</html>
